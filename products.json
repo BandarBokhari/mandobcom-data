@@ -70,5 +70,14 @@
         "quantity": 8,
         "image_url": "https://www.ikea.com/sa/ar/images/products/gonatt-cot-with-drawer-white__0842037_pe778850_s5.jpg",
         "site": "IKEA"
+    },
+    "IK-30248537": {
+        "SKU": "IK-30248537",
+        "name": "SNIGLAR مهد, زان, ‎60x120 سم‏",
+        "desc": "SNIGLAR مهد, زان, ‎60x120 سم‏ سوف ينام طفلك بأمان وراحة في هذا المهد. مصنوعة من خشب الزان الصلب",
+        "price": 533,
+        "quantity": 23,
+        "image_url": "https://www.ikea.com/sa/ar/images/products/sniglar-cot-beech__0637930_pe698615_s5.jpg",
+        "site": "IKEA"
     }
 }

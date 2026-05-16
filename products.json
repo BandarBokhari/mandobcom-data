@@ -34,5 +34,14 @@
         "quantity": 404,
         "image_url": "https://www.ikea.com/sa/ar/images/products/kallax-shelving-unit-white__0644753_pe702937_s5.jpg",
         "site": "IKEA"
+    },
+    "IK-10460888": {
+        "SKU": "IK-10460888",
+        "name": "SMÅGÖRA دولاب ملابس, أبيض, ‎80x50x187 سم‏",
+        "desc": "SMÅGÖRA دولاب ملابس, أبيض, ‎80x50x187 سم‏ عند تصميم مجموعة SMÅGÖRA التقليدية، أولينا اهتمامًا بالغًا بالسلامة. ولهذا السبب استخدمنا مواد غير سامة في جميع الأسطح للمهد، وطاولة التغيير ودولاب الملابس",
+        "price": 813,
+        "quantity": 404,
+        "image_url": "https://www.ikea.com/sa/ar/images/products/smagoera-wardrobe-white__0772938_pe756155_s5.jpg",
+        "site": "IKEA"
     }
 }

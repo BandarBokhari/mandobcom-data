@@ -79,5 +79,14 @@
         "quantity": 23,
         "image_url": "https://www.ikea.com/sa/ar/images/products/sniglar-cot-beech__0637930_pe698615_s5.jpg",
         "site": "IKEA"
+    },
+    "IK-00248567": {
+        "SKU": "IK-00248567",
+        "name": "SUNDVIK مهد, أبيض, ‎60x120 سم‏",
+        "desc": "SUNDVIK مهد, أبيض, ‎60x120 سم‏ يمكن لطفلك النوم لفترة طويلة في هذا المهد. مع النقش الرائع، والمواد المعمرة والتفاصيل المصنوعة بعناية، يمكنك أيضًا خفض الجزء السفلي وإزالة أحد الجوانب الطويلة عند نمو الطفل. يمكن وضع قاعدة المهد على ارتفاعين مختلفين.",
+        "price": 1145,
+        "quantity": 10,
+        "image_url": "https://www.ikea.com/sa/ar/images/products/sundvik-cot-white__0637925_pe698610_s5.jpg",
+        "site": "IKEA"
     }
 }

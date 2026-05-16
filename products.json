@@ -61,5 +61,14 @@
         "quantity": 4,
         "image_url": "https://www.ikea.com/sa/ar/images/products/aelskvaerd-cot-birch-white__1054846_pe847889_s5.jpg",
         "site": "IKEA"
+    },
+    "IK-30467092": {
+        "SKU": "IK-30467092",
+        "name": "GONATT مهد بدرج, أبيض, ‎60x120 سم‏",
+        "desc": "GONATT مهد بدرج, أبيض, ‎60x120 سم‏ يمكنك رؤية واستشعار أن كل التفاصيل في هذا المهد مصنوعة بعناية. الأشكال الناعمة، والمواد المتينة والبناء الثابت مع المميزات العملية ودرج واسع في الأسفل. يمكن وضع قاعدة المهد على ارتفاعين مختلفين.",
+        "price": 1369,
+        "quantity": 8,
+        "image_url": "https://www.ikea.com/sa/ar/images/products/gonatt-cot-with-drawer-white__0842037_pe778850_s5.jpg",
+        "site": "IKEA"
     }
 }

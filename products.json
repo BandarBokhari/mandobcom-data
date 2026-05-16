@@ -43,5 +43,14 @@
         "quantity": 404,
         "image_url": "https://www.ikea.com/sa/ar/images/products/smagoera-wardrobe-white__0772938_pe756155_s5.jpg",
         "site": "IKEA"
+    },
+    "IK-50494264": {
+        "SKU": "IK-50494264",
+        "name": "SUNDVIK دولاب ملابس, رمادي, ‎80x50x171 سم‏",
+        "desc": "SUNDVIK دولاب ملابس, رمادي, ‎80x50x171 سم‏ النمط أزلي والمواد متينة والتفاصيل مصنوعة بعناية. دولاب الملابس هذا ايضاً عميق بما فيه الكفاية لتركيب علاقات كبيرة، حتى يمكنه البقاء مع طفلك من أول لباس له كرضيع إلى البلوغ. أبواب مع مخمدات تغلق بهدوء ونعومة.",
+        "price": 1369,
+        "quantity": 4,
+        "image_url": "https://www.ikea.com/sa/ar/images/products/sundvik-wardrobe-grey__0977367_pe813556_s5.jpg",
+        "site": "IKEA"
     }
 }

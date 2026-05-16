@@ -52,5 +52,14 @@
         "quantity": 4,
         "image_url": "https://www.ikea.com/sa/ar/images/products/sundvik-wardrobe-grey__0977367_pe813556_s5.jpg",
         "site": "IKEA"
+    },
+    "IK-50314809": {
+        "SKU": "IK-50314809",
+        "name": "ÄLSKVÄRD مهد, بتولا/أبيض, ‎60x120 سم‏",
+        "desc": "ÄLSKVÄRD مهد, بتولا/أبيض, ‎60x120 سم‏ أنشئي غرفة كاملة على الطراز الاسكندنافي لطفلك مع مجموعة ÄLSKVÄRD. سينام طفلك لسنوات عديدة على هذا المهد لأنه يمكنك خفض القاعدة واستبدال جانب واحد طويل بحاجز حماية. يمكن إزالة جانب واحد من المهد عندما يكبر الطفل ويصبح قادراً على التسلّق والخروج من المهد.",
+        "price": 1537,
+        "quantity": 4,
+        "image_url": "https://www.ikea.com/sa/ar/images/products/aelskvaerd-cot-birch-white__1054846_pe847889_s5.jpg",
+        "site": "IKEA"
     }
 }

@@ -25,5 +25,14 @@
         "quantity": 404,
         "image_url": "https://www.ikea.com/sa/ar/images/products/stockholm-2025-shelving-unit-bench-oak-veneer__1397705_pe967726_s5.jpg",
         "site": "IKEA"
+    },
+    "IK-20275814": {
+        "SKU": "IK-20275814",
+        "name": "KALLAX وحدة أرفف, أبيض, ‎77x77 سم‏",
+        "desc": "KALLAX وحدة أرفف, أبيض, ‎77x77 سم‏ علقيها على الحائط أو ضعيها على الأرض",
+        "price": 287,
+        "quantity": 404,
+        "image_url": "https://www.ikea.com/sa/ar/images/products/kallax-shelving-unit-white__0644753_pe702937_s5.jpg",
+        "site": "IKEA"
     }
 }

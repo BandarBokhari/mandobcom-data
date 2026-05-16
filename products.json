@@ -16,5 +16,14 @@
         "quantity": 12,
         "image_url": "https://www.ikea.com/sa/ar/images/products/holmerud-side-table-oak-effect__1193662_pe901564_s5.jpg",
         "site": "IKEA"
+    },
+    "IK-90586515": {
+        "SKU": "IK-90586515",
+        "name": "STOCKHOLM 2025 وحدة أرفف/مقعد طويل, قشرة سنديان, ‎180x41x44 سم‏",
+        "desc": "STOCKHOLM 2025 وحدة أرفف/مقعد طويل, قشرة سنديان, ‎180x41x44 سم‏ لمسة أنيقة من التصميم التقليدي. تتميز وحدة الرفوف/المقعد STOCKHOLM 2025 بلمسة نهائية جميلة وتصميم مرن",
+        "price": 1817,
+        "quantity": 404,
+        "image_url": "https://www.ikea.com/sa/ar/images/products/stockholm-2025-shelving-unit-bench-oak-veneer__1397705_pe967726_s5.jpg",
+        "site": "IKEA"
     }
 }

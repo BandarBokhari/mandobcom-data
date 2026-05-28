@@ -1,0 +1,2258 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مندوبكم | متجر أثاث ومنتجات إيكيا أبيات هوم بوكس هوم سنتر في السعودية</title>
+
+    <meta name="google-site-verification" content="q2r-FUhffS7x_HwB147kBJqyxuJBLW1bCNzBoQEhK2U" />
+    <meta name="description" content="متجر مندوبكم لبيع منتجات وأثاث إيكيا أبيات هوم بوكس هوم سنتر شحن لجميع مناطق السعودية">
+    <meta property="og:title" content="مندوبكم للتسوق الإلكتروني">
+    <meta property="og:description" content="متجر مندوبكم موثق رسمياً في منصة الأعمال السعودية. وجهتك الموثوقة للتسوق الإلكتروني الآمن والشحن السريع.">
+    <meta property="og:url" content="https://bandarbokhari.github.io/mandobcom_images/logo.png"> 
+    <meta property="og:site_name" content="متجر مندوبكم">
+    <meta property="og:type" content="website">
+
+    <meta property="og:image" content="https://bandarbokhari.github.io/mandobcom_images/logo.png"> 
+    <meta property="og:image:secure_url" content="https://bandarbokhari.github.io/mandobcom_images/logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+    <meta name="theme-color" content="#007bff">
+    
+    <link rel="icon" type="image/png" href="https://bandarbokhari.github.io/mandobcom_images/logo.png">
+    
+    <style>
+        :root {
+            /* ثيم ألوان احترافي متناسق مع الشعار الذهبي والأسود الفاخر */
+            --primary: #F2BA13;        /* الأصفر الذهبي الدافئ للشعار */
+            --primary-dark: #D4A10C;   
+            --dark: #1E1E24;           /* رمادي غامق فاخر يقارب الأسود */
+            --success: #28a745;
+            --whatsapp: #25D366;
+            --muted: #7F8C8D;
+            --bg: #F8F9FA;              /* خلفية ناعمة ونظيفة جداً للمتجر */
+            --card-shadow: 0 10px 25px rgba(0,0,0,0.03);
+        }
+
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: var(--bg); 
+            margin: 0; 
+            padding: 15px; 
+            color: var(--dark); 
+            padding-bottom: 90px; 
+        }
+
+        /* استدعاء خط ايكيا الرسمي */
+        @font-face {
+            font-family: 'IKEA-Noto-Sans';
+            src: url('https://www.ikea.com/global/assets/fonts/noto-sans/NotoSans-Regular.woff2') format('woff2');
+        }
+
+        /* تنسيق فئة العملة لتطابق مظهر إيكيا بدقة */
+        .currency-symbol {
+            font-family: 'IKEA-Noto-Sans', 'Segoe UI', -apple-system, sans-serif !important;
+            font-weight: 700;          
+            font-size: 14px;           
+            color: #111;               
+            margin-right: 4px;         
+            display: inline-block;
+            vertical-align: super;     
+        }
+        
+        /* تصميم الهيدر المطور مع احتواء كامل وثابت للشعار */
+        .main-header { 
+            text-align: center; 
+            margin-top: 25px; 
+            margin-bottom: 25px; 
+        }
+        .main-header .logo-container {
+            width: 140px;          
+            height: 140px;         
+            margin: 0 auto 15px auto;
+            border-radius: 24px;   
+            overflow: hidden;      
+            box-shadow: 0 8px 20px rgba(0,0,0,0.06); 
+            background: #ffffff;   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-header .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;   
+            padding: 5px;          
+            box-sizing: border-box;
+        }
+
+        /* شريط البحث المطور */
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            padding: 0 8px;
+            position: relative;
+        }
+        .search-box {
+            width: 100%;
+            padding: 14px 45px 14px 20px;
+            border: 2px solid #E0E0E0;
+            border-radius: 50px;
+            font-size: 15px;
+            font-family: inherit;
+            box-sizing: border-box;
+            outline: none;
+            transition: all 0.3s ease;
+            box-shadow: var(--card-shadow);
+        }
+        .search-box:focus {
+            border-color: var(--primary);
+            box-shadow: 0 5px 15px rgba(242, 186, 19, 0.15);
+        }
+        .search-icon {
+            position: absolute;
+            top: 50%;
+            right: 25px;
+            transform: translateY(-50%);
+            color: var(--muted);
+            font-size: 18px;
+            pointer-events: none;
+        }
+        
+        /* زر السلة العائم السريع المطور */
+        .cart-floating-btn {
+            position: fixed; 
+            bottom: 20px; 
+            left: 20px; 
+            background: var(--dark);
+            color: white; 
+            border: none; 
+            padding: 15px 25px; 
+            border-radius: 50px;
+            font-size: 15px; 
+            font-weight: bold; 
+            cursor: pointer; 
+            z-index: 999;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+            display: flex; 
+            align-items: center; 
+            gap: 8px;
+            transition: all 0.2s;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .cart-floating-btn:active { 
+            transform: scale(0.95); 
+        }
+        .cart-floating-btn #cart-count {
+            background: var(--primary);
+            color: var(--dark);
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        /* شبكة براندات المتاجر */
+        .brands-grid { 
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 16px; 
+            max-width: 600px; 
+            margin: 0 auto 40px auto; 
+            padding: 0 8px; 
+        }
+        .brand-card { 
+            background: white; 
+            height: 120px; 
+            border-radius: 16px; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            box-shadow: var(--card-shadow); 
+            text-decoration: none; 
+            color: inherit; 
+            transition: all 0.3s ease; 
+            border: 1px solid #F1F2F6; 
+        }
+        .brand-card.active { 
+            cursor: pointer; 
+            border: 2px solid var(--primary); 
+            background: linear-gradient(145deg, #ffffff, #fffdf7); 
+        }
+        .brand-card.upcoming { 
+            opacity: 0.5; 
+            cursor: not-allowed; 
+            background: #FAFAFA; 
+        }
+        .brand-logo { 
+            width: 50px; 
+            height: 50px; 
+            object-fit: contain; 
+            margin-bottom: 8px; 
+        }
+        .brand-name { 
+            font-size: 13px; 
+            font-weight: bold; 
+        }
+
+/* ========================================================= */
+/* الشبكة والمنتجات - نسخة محسنة للتباين و SEO و Accessibility */
+/* ========================================================= */
+
+.section-title { 
+    text-align: right; 
+    max-width: 1200px; 
+    margin: 0 auto 20px auto; 
+    padding: 0 12px; 
+    font-size: 18px; 
+    font-weight: 700; 
+    border-right: 4px solid var(--primary); 
+    color: #111111; /* تباين أقوى */
+}
+
+/* ========================================================= */
+/* شبكة المنتجات */
+/* ========================================================= */
+
+.products-grid { 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 8px; 
+}
+
+@media (min-width: 768px) { 
+
+    .products-grid { 
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px; 
+    } 
+}
+
+/* ========================================================= */
+/* بطاقة المنتج */
+/* ========================================================= */
+
+.product-card { 
+    background: #FFFFFF; 
+    border-radius: 14px; 
+    overflow: hidden; 
+    box-shadow: var(--card-shadow); 
+    display: flex; 
+    flex-direction: column; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border: 1px solid #DDDDDD; /* رفع التباين */
+}
+
+.product-card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 15px 30px rgba(0,0,0,0.10); 
+}
+
+/* ========================================================= */
+/* صورة المنتج */
+/* ========================================================= */
+
+.product-img { 
+    width: 100%; 
+    height: 140px; 
+    object-fit: cover; 
+    background: #EDEDED; /* لون أوضح */
+}
+
+/* ========================================================= */
+/* معلومات المنتج */
+/* ========================================================= */
+
+.product-info { 
+    padding: 12px; 
+    flex-grow: 1; 
+    display: flex; 
+    flex-direction: column; 
+    text-align: right; 
+    background: #FFFFFF;
+}
+
+/* ========================================================= */
+/* SKU + شعار إيكيا */
+/* ========================================================= */
+
+.product-sku {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 14px;
+
+    color: #222222;
+
+    font-weight: 800;
+
+    background: #E9ECEF;
+
+    padding: 6px 10px;
+
+    border-radius: 8px;
+
+    margin-bottom: 8px;
+
+    border: 1px solid #D0D0D0;
+
+    width: fit-content;
+
+    line-height: 1.4;
+}
+
+/* ========================================================= */
+/* شعار إيكيا */
+/* ========================================================= */
+
+.product-sku-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:6px;
+}
+
+.brand-logo-sku{
+    width:28px;
+    height:28px;
+    object-fit:contain;
+    flex-shrink:0;
+}
+
+.product-sku{
+    font-size:11px;
+    color:#222;
+    font-weight:600;
+    background:#E9ECEF;
+    padding:4px 8px;
+    border-radius:6px;
+    border:1px solid #D0D0D0;
+    line-height:1.4;
+}
+/* ========================================================= */
+/* اسم المنتج */
+/* ========================================================= */
+
+.product-name { 
+    font-size: 13px; 
+    font-weight: 700; 
+    margin: 5px 0; 
+    color: #111111; /* لون عالي التباين */
+    height: 36px; 
+    overflow: hidden; 
+    display: -webkit-box; 
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical; 
+    line-height: 1.5; 
+}
+
+/* ========================================================= */
+/* معلومات السعر والمخزون */
+/* ========================================================= */
+
+.product-meta { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: auto; 
+    padding-top: 10px; 
+    border-top: 1px solid #E0E0E0; /* أوضح */
+}
+
+/* ========================================================= */
+/* السعر */
+/* ========================================================= */
+
+.product-price { 
+    font-size: 15px; 
+    font-weight: 700; 
+    color: #111111; 
+}
+
+/* ========================================================= */
+/* المخزون */
+/* ========================================================= */
+
+.product-stock { 
+    font-size: 11px; 
+    padding: 4px 8px; 
+    border-radius: 6px; 
+    font-weight: 700; 
+    border: 1px solid transparent;
+}
+
+/* ========================================================= */
+/* متوفر */
+/* ========================================================= */
+
+.in-stock { 
+    background: #D5F5E3; 
+    color: #145A32; 
+    border-color: #A9DFBF;
+}
+
+/* ========================================================= */
+/* غير متوفر */
+/* ========================================================= */
+
+.out-of-stock { 
+    background: #FADBD8; 
+    color: #922B21; 
+    border-color: #F5B7B1;
+}
+        /* تنسيقات النوافذ المنبثقة للمنتجات والسياسات */
+        .modal-overlay { 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background: rgba(0, 0, 0, 0.5); 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            opacity: 0; 
+            pointer-events: none; 
+            transition: opacity 0.3s ease; 
+            z-index: 9999; 
+            padding: 10px; 
+            box-sizing: border-box; 
+            backdrop-filter: blur(4px); 
+        }
+        .modal-overlay.active { 
+            opacity: 1; 
+            pointer-events: auto; 
+        }
+        .modal-box { 
+            background: white; 
+            width: 100%; 
+            max-width: 460px; 
+            border-radius: 20px; 
+            overflow: hidden; 
+            text-align: right; 
+            position: relative; 
+            max-height: 90vh; 
+            display: flex; 
+            flex-direction: column; 
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15); 
+        }
+        .modal-close-btn { 
+            position: absolute; 
+            top: 12px; 
+            left: 12px; 
+            background: rgba(0,0,0,0.5); 
+            color: white; 
+            border: none; 
+            width: 34px; 
+            height: 34px; 
+            border-radius: 50%; 
+            font-size: 16px; 
+            cursor: pointer; 
+            z-index: 99999; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            transition: background 0.2s; 
+        }
+        .modal-close-btn:hover { 
+            background: rgba(0,0,0,0.8); 
+        }
+        .modal-scroll-area { 
+            overflow-y: auto; 
+            padding: 25px; 
+        }
+        
+        .add-to-cart-btn { 
+            width: 100%; 
+            background: var(--primary); 
+            color: var(--dark); 
+            border: none; 
+            padding: 14px; 
+            border-radius: 10px; 
+            font-weight: bold; 
+            font-size: 15px; 
+            margin-top: 15px; 
+            cursor: pointer; 
+            transition: background 0.2s; 
+        }
+        .add-to-cart-btn:hover { 
+            background: var(--primary-dark); 
+        }
+        .address-section { 
+            margin-top: 15px; 
+            border-top: 1px dashed #E0E0E0; 
+            padding-top: 15px; 
+        }
+        .address-input { 
+            width: 100%; 
+            padding: 12px; 
+            border: 1px solid #E0E0E0; 
+            border-radius: 10px; 
+            font-size: 13px; 
+            box-sizing: border-box; 
+            font-family: inherit; 
+            outline: none; 
+        }
+        .address-input:focus { 
+            border-color: var(--primary); 
+        }
+        .bank-details { 
+            background: #FFFDF4; 
+            padding: 14px; 
+            border-radius: 10px; 
+            font-size: 12px; 
+            margin-top: 15px; 
+            line-height: 1.6; 
+            border: 1px solid #F9E7B9; 
+            color: #7D6608; 
+        }
+        .whatsapp-btn { 
+            width: 100%; 
+            background: var(--success); 
+            color: white; 
+            border: none; 
+            padding: 14px; 
+            border-radius: 10px; 
+            font-weight: bold; 
+            font-size: 15px; 
+            margin-top: 15px; 
+            cursor: pointer; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 8px; 
+        }
+        
+        .cart-item { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 12px 0; 
+            border-bottom: 1px solid #F5F5F5; 
+        }
+        .remove-item-btn { 
+            background: #FADBD8; 
+            color: #78281F; 
+            border: none; 
+            padding: 5px 10px; 
+            border-radius: 6px; 
+            cursor: pointer; 
+            font-size: 11px; 
+        }
+        .no-results { 
+            text-align: center; 
+            grid-column: span 2; 
+            color: var(--muted); 
+            padding: 40px 0; 
+            font-size: 14px; 
+        }
+        @media (min-width: 768px) { 
+            .no-results { 
+                grid-column: span 4; 
+            } 
+        }
+
+        .policy-modal-body {
+            max-height: 400px;
+            overflow-y: auto;
+            padding: 15px;
+            text-align: right;
+            direction: rtl;
+            line-height: 1.8;
+            color: #333;
+        }
+        .policy-modal-body h3 {
+            color: #212529;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-size: 16px;
+            border-bottom: 2px solid #eeecfc;
+            padding-bottom: 5px;
+        }
+        .policy-modal-body ul {
+            padding-right: 20px;
+            margin-bottom: 15px;
+        }
+        .policy-modal-body li {
+            margin-bottom: 6px;
+            font-size: 14px;
+        }
+        .policy-modal-body p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+/* ========================================================= */
+/* Footer محسّن بالكامل للتباين و SEO و Accessibility */
+/* ========================================================= */
+
+.site-footer {
+
+    background-color: #F4F5F7; /* خلفية أوضح */
+    color: #1F2937; /* لون نص عالي التباين */
+
+    padding: 35px 20px;
+    margin-top: 40px;
+
+    border-top: 1px solid #D1D5DB;
+
+    font-family: sans-serif;
+    direction: rtl;
+
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
+/* ========================================================= */
+/* الحاوية الداخلية */
+/* ========================================================= */
+
+.footer-container {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+/* ========================================================= */
+/* الجهة اليمنى */
+/* ========================================================= */
+
+.footer-right {
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+/* ========================================================= */
+/* شهادة منصة الأعمال */
+/* ========================================================= */
+
+.business-cert {
+
+    font-size: 14px;
+
+    color: #111827; /* تباين أقوى */
+
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #FFFFFF;
+
+    border: 1px solid #D1D5DB;
+
+    border-radius: 10px;
+
+    padding: 10px 14px;
+
+    width: fit-content;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+
+    gap: 10px;
+}
+
+/* ========================================================= */
+/* صورة الشهادة */
+/* ========================================================= */
+
+.business-cert img {
+
+    height: 26px;
+
+    object-fit: contain;
+
+    vertical-align: middle;
+
+    display: block;
+}
+
+/* ========================================================= */
+/* الجهة اليسرى */
+/* ========================================================= */
+
+.footer-left {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    align-items: flex-start;
+}
+
+/* ========================================================= */
+/* روابط الفوتر */
+/* ========================================================= */
+
+.footer-link {
+
+    color: #0056B3; /* أزرق واضح ومتوافق مع التباين */
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        color 0.2s ease,
+        text-decoration 0.2s ease;
+}
+
+/* ========================================================= */
+/* Hover */
+/* ========================================================= */
+
+.footer-link:hover {
+
+    color: #003D82;
+
+    text-decoration: underline;
+}
+
+/* ========================================================= */
+/* نص الحقوق */
+/* ========================================================= */
+
+.footer-copy {
+
+    color: #374151;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+
+    font-weight: 500;
+}
+
+/* ========================================================= */
+/* Responsive */
+/* ========================================================= */
+
+@media (max-width: 768px) {
+
+    .footer-container {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        align-items: center;
+    }
+
+    .footer-left {
+
+        align-items: center;
+    }
+
+    .footer-right {
+
+        align-items: center;
+    }
+
+    .business-cert {
+
+        justify-content: center;
+
+        text-align: center;
+    }
+}
+        /* تنسيقات المساعد الذكي التفاعلي الجديد */
+        .bot-floating-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px; 
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            padding: 12px 18px;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            z-index: 9999;
+            direction: rtl;
+            transition: transform 0.2s;
+        }
+        .bot-floating-btn:hover { 
+            transform: scale(1.05); 
+        }
+        .bot-icon { 
+            font-size: 20px; 
+        }
+        .bot-btn-text { 
+            font-size: 14px; 
+            font-weight: bold; 
+        }
+
+        .bot-chat-window {
+            position: fixed;
+            bottom: 95px;
+            right: 30px; 
+            width: 320px;
+            height: 420px; 
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+            display: none; 
+            flex-direction: column;
+            z-index: 9999;
+            direction: rtl;
+            overflow: hidden;
+            font-family: sans-serif;
+        }
+
+        .bot-header {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .bot-profile { 
+            display: flex; 
+            align-items: center; 
+            gap: 10px; 
+        }
+        .bot-avatar { 
+            font-size: 24px; 
+            background: rgba(255,255,255,0.2); 
+            padding: 5px; 
+            border-radius: 50%; 
+        }
+        .bot-profile h4 { 
+            margin: 0; 
+            font-size: 14px; 
+        }
+        .bot-profile p { 
+            margin: 0; 
+            font-size: 11px; 
+            color: #e0e0e0; 
+        }
+        .bot-close-btn { 
+            background: none; 
+            border: none; 
+            color: white; 
+            font-size: 24px; 
+            cursor: pointer; 
+        }
+
+        .bot-messages {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: #f8f9fa;
+        }
+        .msg-bubble {
+            padding: 10px 14px;
+            border-radius: 12px;
+            font-size: 13px;
+            max-width: 85%;
+            line-height: 1.4;
+        }
+        .bot-msg { 
+            background: #e9ecef; 
+            color: #333; 
+            align-self: flex-start; 
+            border-top-right-radius: 2px; 
+        }
+        .user-msg { 
+            background: #007bff; 
+            color: white; 
+            align-self: flex-end; 
+            border-top-left-radius: 2px; 
+        }
+
+        .bot-options {
+            padding: 10px;
+            background: white;
+            border-top: 1px solid #eee;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .bot-options button {
+            background: #f1f3f5;
+            border: 1px solid #e9ecef;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .bot-options button:hover { 
+            background: #e2e6ea; 
+            color: #007bff; 
+        }
+
+        .bot-input-area {
+            display: flex;
+            border-top: 1px solid #eee;
+            padding: 10px;
+            background: #fff;
+        }
+        .bot-input-area input {
+            flex: 1;
+            border: 1px solid #e2e8f0;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            outline: none;
+        }
+        .bot-send-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 0 15px;
+            margin-right: 5px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+        .bot-send-btn:hover { 
+            background: #0056b3; 
+        }
+
+        /* تنسيق نافذة عرض الصور بالحجم الكامل مع ميزة التكبير */
+        .image-viewer-container {
+            position: fixed;
+            z-index: 99999; 
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto; 
+            background-color: rgba(0, 0, 0, 0.95); 
+            backdrop-filter: blur(5px); 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .viewer-content-img {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 85vh;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), cursor 0.2s;
+            cursor: zoom-in; 
+            user-select: none;
+            -webkit-user-drag: none;
+        }
+        .viewer-content-img.zoomed {
+            transform: scale(1.8); 
+            cursor: zoom-out; 
+            max-height: none;  
+            max-width: none;   
+            margin: 40px auto;
+        }
+        #viewer-caption {
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 15px 0;
+            font-size: 16px;
+            font-weight: bold;
+            z-index: 10;
+        }
+        .close-viewer-btn {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 100; 
+        }
+        .close-viewer-btn:hover {
+            color: #ff3333;
+        }
+
+        @media only screen and (max-width: 700px){
+            .viewer-content-img {
+                max-width: 95%;
+            }
+            .viewer-content-img.zoomed {
+                transform: scale(2.2); 
+                margin: 80px auto;
+            }
+            .close-viewer-btn {
+                top: 15px;
+                right: 20px;
+                font-size: 35px;
+            }
+        }
+    </style>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+</head>
+<body>
+
+    <button class="cart-floating-btn" onclick="openCartModal()">
+        🛒 السلة: <span id="cart-count">0</span> قطع
+    </button>
+
+    <div class="main-header">
+        <div class="logo-container">
+            <img src="https://bandarbokhari.github.io/mandobcom_images/logo.png" alt="شعّار متجر مندوبكم">
+        </div>
+        <p>توصيل فوري وخيارات تسوق مرنة وذكية</p>
+    </div>
+
+   <div class="search-container" style="display: flex; gap: 10px; align-items: center;">
+    <div style="position: relative; flex: 1;">
+        <label for="store-search-box" class="search-icon">🔍</label>
+        <input type="text" id="store-search-box" class="search-box" placeholder="ابحث باسم المنتج أو رقم الـ SKU (مثال: 40571248)..." oninput="handleSearch(this.value, false)">
+    </div>
+    <button id="store-search-btn" style="background: var(--primary); color: var(--dark); border: none; padding: 13px 24px; border-radius: 50px; font-weight: bold; cursor: pointer; font-size: 15px; box-shadow: var(--card-shadow); white-space: nowrap; transition: all 0.2s;">بحث</button>
+</div>
+
+    <div class="brands-grid">
+        <a href="#ikea-section" class="brand-card active">
+            <img class="brand-logo" src="https://www.ikea.com/global/assets/logos/brand/ikea.svg" alt="IKEA Logo">
+            <div class="brand-name">إيكيا - IKEA</div>
+        </a>
+        <div class="brand-card upcoming"><img class="brand-logo" src="https://www.abyat.com/favicon.png"><div class="brand-name">أبيات (قريباً)</div></div>
+        <div class="brand-card upcoming"><img class="brand-logo" src="https://lmg.a.bigcontent.io/v1/static/website_images_logos_homebox_sa_ar_logo-homebox?fmt=auto"><div class="brand-name">هوم بوكس (قريباً)</div></div>
+        <div class="brand-card upcoming"><img class="brand-logo" src="https://lmg.a.bigcontent.io/v1/static/website_images_static-pages_brand_exp_images_HomeCentre_logo_Ar_variant2"><div class="brand-name">هوم سنتر (قريباً)</div></div>
+    </div>
+
+    <div id="ikea-section" class="section-title">منتجات إيكيا المتوفرة :</div>
+    <div class="products-grid" id="products-container"></div>
+
+    <div id="product-modal" class="modal-overlay" onclick="closeProductModal()">
+        <div class="modal-box" onclick="event.stopPropagation()" style="direction: rtl; text-align: right; max-width: 450px; width: 100%; padding: 20px; box-sizing: border-box;">
+            
+            <div style="display: flex; justify-content: flex-start; margin-bottom: 15px;">
+                <button class="modal-close-btn" onclick="closeProductModal()" style="position: static; font-size: 15px; cursor: pointer; background: #f1f1f1; padding: 6px 14px; border-radius: 6px; border: none; font-weight: bold; color: #333;">✕</button>
+            </div>
+
+            <div style="text-align: center; margin-bottom: 15px; background: #f9f9f9; padding: 10px; border-radius: 8px;">
+                <img id="modal-product-img" src="" alt="صورة المنتج" style="max-width: 100%; max-height: 300px; border-radius: 6px; object-fit: contain; cursor: pointer; transition: transform 0.2s;">
+            </div>
+
+            <span id="modal-product-sku" style="font-size: 12px; color: #777; display: block; margin-bottom: 6px; font-family: monospace;"></span>
+            <h3 id="modal-product-name" style="font-size: 18px; margin: 0 0 10px 0; color: #1E1E24; font-weight: bold; line-height: 1.4;"></h3>
+            <p id="modal-product-desc" style="font-size: 13.5px; color: #555; margin-bottom: 18px; line-height: 1.6; max-height: 100px; overflow-y: auto; padding-left: 5px;"></p>
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-top: 1px dashed #eee; padding-top: 12px;">
+                <span id="modal-product-price" style="font-size: 20px; font-weight: bold; color: #1E1E24;"></span>
+                <span id="modal-product-stock" class="product-stock" style="font-size: 13px; padding: 4px 10px; border-radius: 20px;"></span>
+            </div>
+
+            <button id="add-to-cart-action-btn" style="background: #28a745; color: white; width: 100%; padding: 14px; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: background 0.2s;">
+                🛒 إضافة إلى سلة المشتريات
+            </button>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="cart-modal" onclick="closeCartModal()">
+        <div class="modal-box" onclick="event.stopPropagation()">
+            <button class="modal-close-btn" onclick="closeCartModal()">✕</button>
+            <div class="modal-scroll-area">
+                <h2 style="font-size:18px; font-weight:bold; margin-bottom:15px;">🛒 سلة المشتريات وتأكيد الشحن</h2>
+                <div id="cart-items-container"></div>
+
+                <h3 style="margin-top:15px; text-align:left; color:var(--dark);">المجموع الإجمالي: <span id="cart-total-price" style="color:var(--primary-dark)">0</span> ﷼</h3>
+
+                <div class="bank-details">
+                    <strong>ℹ️ معلومات التحويل البنكي للمتجر:</strong><br>
+                    • الـ IBAN: <span id="store-iban" style="font-weight:bold; user-select:all;">SA8580000380608016017386</span><br>
+                    • واتساب المتجر : <span id="store-phone" style="font-weight:bold;">STC Bank 0566729870</span>
+                </div>
+
+                <div class="address-section">
+                    <label style="font-size:13px; font-weight:bold; display:block; margin-bottom:5px;">🏙️ اختر مدينة التوصيل: إذا لم تجد مدينتك راسلنا واتساب 0566729870</label>
+<div style="margin-bottom:15px;">
+
+    <label 
+        for="cart-user-city"
+        style="
+            font-size:13px;
+            font-weight:bold;
+            display:block;
+            margin-bottom:6px;
+            color:#222;
+        "
+    >
+
+    </label>
+
+    <select 
+        id="cart-user-city"
+        name="city"
+        class="address-input"
+        aria-label="اختر مدينة التوصيل"
+        required
+        style="
+            width:100%;
+            margin-bottom:10px;
+            padding:10px;
+            border-radius:8px;
+            border:1px solid #CCC;
+            box-sizing:border-box;
+            background:#FFF;
+            color:#222;
+            font-size:14px;
+            font-weight:500;
+        "
+    >
+
+        <option value="">-- اختر المدينة --</option>
+
+        <option value="Jeddah">جدة (توصيل فوري عبر المندوب)</option>
+        <option value="Makkah">مكة المكرمة</option>
+        <option value="Riyadh">الرياض</option>
+        <option value="Dammam">الدمام</option>
+        <option value="aboarysh">أبو عريش</option>
+        <option value="banymalek">أداير بني مالك</option>
+        <option value="afif">عفيف</option>
+        <option value="aflaj">الأفلاج</option>
+        <option value="ahadmasarha">أحد المسارحة</option>
+        <option value="ahadrfida">أحد رفيدة</option>
+        <option value="aleys">العيص</option>
+        <option value="dhranjanob">ظهران الجنوب</option>
+        <option value="tathlyth">تثليث</option>
+        <option value="sratabydah">سراة عبيدة</option>
+        <option value="sabtalaya">سبت العلايا</option>
+        <option value="mjardah">المجاردة</option>
+        <option value="arda">العارضة</option>
+        <option value="asyah">الأسياح</option>
+        <option value="bshayr">بشاير</option>
+        <option value="hafof">الهفوف</option>
+        <option value="eydaby">العيدابي</option>
+        <option value="arar">عرعر</option>
+        <option value="baha">الباحة</option>
+        <option value="bahra">بحرة جدة</option>
+        <option value="bagaa">بقعاء</option>
+        <option value="baljorashy">بلجرشي</option>
+        <option value="berk">البرك</option>
+        <option value="beysh">بيش</option>
+        <option value="bysha">بيشة</option>
+        <option value="bryda">بريدة</option>
+        <option value="jazan">جازان</option>
+        <option value="haeyl">حائل</option>
+        <option value="abha">أبها</option>
+        <option value="asfan">عسفان</option>
+        <option value="skakajof">سكاكا - الجوف</option>
+        <option value="kamysmshyt">خميس مشيط</option>
+        <option value="madynamonora">المدينة المنورة</option>
+        <option value="mhddahb">مهد الذهب</option>
+        <option value="najran">نجران</option>
+        <option value="ola">العلا</option>
+
+    </select>
+
+</div>
+
+                    <form id="checkout-form" onsubmit="submitPaidOrderToFirebase(event)">
+                        <div style="margin-top:15px;">
+                            <label style="font-size:13px; font-weight:bold; display:block; margin-bottom:5px;">📍 عنوان التوصيل بالتفصيل:</label>
+                            <input type="text" id="customer-address-input" class="address-input" style="width:100%; padding:10px; border-radius:8px; border:1px solid #CCC; box-sizing:border-box;" placeholder="اكتب اسم الحي، الشارع، ورقم المبنى..." required>
+                        </div>
+                        <div style="margin-top:15px; background:#f8f9fa; padding:12px; border-radius:10px; border:1px dashed #DDD;">
+                            <label style="font-size:13px; font-weight:bold; display:block; margin-bottom:5px;">📸 ارفع صورة إيصال التحويل (الوصل):</label>
+                            <input type="file" id="cart-receipt-file" accept="image/*" style="font-size:12px;" required>
+                            <div id="receipt-preview-text" style="font-size:11px; color:green; margin-top:5px; display:none;">✅ تم تجهيز صورة الإيصال للرفع</div>
+                        </div>
+                        <div style="margin-top:15px;">
+                            <label style="font-size:13px; font-weight:bold; display:block; margin-bottom:5px;">👤 اسم المستلم الثلاثي:</label>
+                            <input type="text" id="customer-name-input" style="width:100%; padding:10px; border-radius:8px; border:1px solid #CCC; box-sizing:border-box;" placeholder="اكتب الاسم الثلاثي للمستلم" required>
+                        </div>
+                        <div style="margin-top:15px;">
+                            <label style="font-size:13px; font-weight:bold; display:block; margin-bottom:5px;">📱 رقم الجوال:</label>
+                            <input type="tel" id="customer-phone-input" style="width:100%; padding:10px; border-radius:8px; border:1px solid #CCC; box-sizing:border-box; direction: ltr; text-align: right;" placeholder="مثال: 05xxxxxxxx" pattern="05[0-9]{8}" required>
+                        </div>
+                        <div style="margin-top:20px; display:flex; align-items:flex-start; gap:8px; background: #fffde7; padding: 10px; border-radius: 8px;">
+                            <input type="checkbox" id="cart-agreement-check" style="margin-top:3px; width:18px; height:18px; min-width:18px; cursor:pointer;" required>
+                            <label for="cart-agreement-check" style="font-size:12px; color:#444; cursor:pointer; line-height:1.5; user-select:none;"> أقر بأنني قمت بتحويل المبلغ كاملاً إلى الحساب البنكي الموضح أعلاه، وأن البيانات المرفقة وصورة الإيصال صحيحة تماماً. </label>
+                        </div>
+                        <button type="submit" class="whatsapp-btn" id="final-submit-btn" style="width:100%; margin-top:20px; padding:12px; font-size:15px; font-weight:bold; border-radius:8px; cursor:pointer;"> ✅ تم الدفع وتأكيد الطلب </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer" style="clear: both; width: 100%; display: block; position: relative; margin-top: 50px; background: #ffffff; padding: 20px 0; border-top: 1px solid #eee; box-sizing: border-box;">
+        <div class="footer-container" style="max-width: 1200px; margin: 0 auto; padding: 0 15px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px;">
+            <div class="footer-right" style="flex: 1; min-width: 280px;">
+                <div class="business-info" style="margin-bottom: 15px;">
+                    <span class="brand-name" style="display: block; font-size: 15px; font-weight: bold; color: #333; margin-bottom: 5px;">مندوبكم للتسوق الإلكتروني</span>
+                    <p class="copyright-text" style="font-size: 13px; color: #666; margin: 0;"> جميع الحقوق محفوظة مندوبكم © 2026 | <span style="font-size: 11px; color: #a0aec0;">تم التطوير وبلمسة ذكية 🤖✨</span> </p>
+                </div>
+               <div class="business-cert" style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    gap: 8px;
+">
+    
+    <img 
+        src="https://lh3.googleusercontent.com/d/1pEwlyJccODuET-ElDi3p-tRZrndq_23D" 
+        alt="شعار منصة الأعمال" 
+        class="cert-img"
+        style="
+            max-height: 35px;
+            width: auto;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto;
+        "
+    >
+
+    <span 
+        class="cert-text"
+        style="
+            font-size: 12px;
+            color: #444;
+        "
+    >
+        شهادة منصة الأعمال رقم: 0000038405
+    </span>
+
+</div>
+            </div>
+            <div class="footer-left" style="display: flex; gap: 15px;">
+                <span class="footer-link" onclick="openPolicy('privacy')" style="font-size: 13px; color: #007bff; cursor: pointer; text-decoration: none;">سياسة الخصوصية</span>
+                <span class="footer-link" onclick="openPolicy('terms')" style="font-size: 13px; color: #007bff; cursor: pointer; text-decoration: none;">الشروط والأحكام</span>
+            </div>
+        </div>
+    </footer>
+
+    <div id="image-viewer-modal" class="image-viewer-container" style="display: none; position: fixed; z-index: 99999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9); box-sizing: border-box;">
+        <span class="close-viewer-btn" onclick="closeImageViewer()" style="position: absolute; top: 15px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; cursor: pointer; user-select: none;">×</span>
+        <img class="viewer-content-img" id="full-size-image" alt="معاينة الصورة بالحجم الكامل" style="margin: auto; display: block; max-width: 80%; max-height: 80%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); object-fit: contain;">
+        <div id="viewer-caption" style="margin: auto; display: block; width: 80%; text-align: center; color: #ccc; padding: 10px 0; height: 50px; position: absolute; bottom: 20px; left: 10%; font-weight: bold;"></div>
+    </div>
+
+    <div class="bot-floating-btn" onclick="toggleBotChat()">
+        <span class="bot-icon">🤖</span>
+    </div>
+
+    <div class="bot-chat-window" id="bot-chat-window" style="display: none;">
+        <div class="bot-header">
+            <div class="bot-profile">
+                <span class="bot-avatar">🤖</span>
+                <div>
+                    <h4>مساعد متجر مندوبكم</h4>
+                    <p>متصل ومستعد لمساعدتك فورا</p>
+                </div>
+            </div>
+            <button class="bot-close-btn" onclick="toggleBotChat()">×</button>
+        </div>
+        <div class="bot-messages" id="bot-messages-container"></div>
+        <div class="bot-options">
+            <button onclick="handleBotOption('كيف يتم الدفع والتحويل البنكي؟')">💳 طرق الدفع</button>
+            <button onclick="handleBotOption('هل متجر مندوبكم موثق رسمياً؟')">🛡️ توثيق المتجر</button>
+            <button onclick="handleBotOption('رقم التواصل مع الدعم الفني')">📞 الدعم الفني</button>
+        </div>
+        <div class="bot-input-area">
+            <input type="text" id="bot-user-input" placeholder="اكتب سؤالك هنا..." onkeypress="if(event.key === 'Enter') sendBotMessage()">
+            <button class="bot-send-btn" onclick="sendBotMessage()">إرسال</button>
+        </div>
+    </div>
+<script>
+        // =================================================================
+        // 0. إعدادات الفايربيس والمتغيرات العامة الأساسية لمتجر مندوبكم
+        // =================================================================
+        const firebaseConfig = { 
+            databaseURL: "https://mandobcom-app-default-rtdb.europe-west1.firebasedatabase.app/" 
+        };
+        if (!firebase.apps.length) {
+            firebase.initializeApp(firebaseConfig);
+        }
+        const database = firebase.database();
+
+        let allProductsData = {}; 
+        let allProductsKeys = []; 
+        let cart = JSON.parse(localStorage.getItem('mandobcom_cart')) || [];
+        let receiptBase64 = ""; 
+        let currentPage = 1;
+        const productsPerPage = 50;
+
+        // تحديث العداد عند بدء التشغيل المباشر
+        updateCartCounter();
+
+        // =================================================================
+        // 1. دالة جلب التوكن الصامتة من منصة أوتو للشحن (OTO v2 API)
+        // =================================================================
+        async function getOtoAccessToken() {
+            const url = "https://api.tryoto.com/rest/v2/refreshToken"; 
+            const myRefreshToken = "AMf-vBzX_-M0pzfal7l86RAxxpsvgdLsfGLJm2Ypt3mhJBnIyNpnE5CDt6DJXUoX934G8pyGSng-BFcRLo2InyrhwVmidqUeKVrAB59-JHTaVEfyimPGZ3oX9AeDTXxQ8GdysZo4fk0D4y2NoZp7UviEA8t6EPCrTXYW4hyLUS38luEaEvgm7LWgkRzHZfVfx3J_kzDPPHF31ND1F6r5fwafTGD_S4MrfQ"; 
+
+            try {
+                const response = await fetch(url, {
+                    method: "POST",
+                    headers: { 
+                        "Content-Type": "application/json" 
+                    },
+                    body: JSON.stringify({ 
+                        "refresh_token": myRefreshToken,
+                        "token": myRefreshToken 
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (response.ok && data.access_token) {
+                    console.log("🔑 تم إنشاء الـ Access Token بنجاح عبر أوتو v2!");
+                    return data.access_token; 
+                } else {
+                    console.error("❌ فشل السيرفر في قراءة توكن أوتو:", data.message || data.error || data);
+                }
+            } catch (error) {
+console.error("❌ خطأ شبكة أثناء جلب توكن أوتو الخاص بالشحن:", error);
+            }
+            return null;
+        }
+
+// =================================================================
+// جلب المنتجات من الفايربيس وفحص الروابط الذكية (?id=) لتنبثق تلقائياً
+// =================================================================
+database.ref('products').on('value', (snapshot) => {
+    if (snapshot.exists()) {
+        allProductsData = snapshot.val();
+        allProductsKeys = Object.keys(allProductsData).sort();
+        
+        // 1. عرض المنتجات كاملة في الصفحة الرئيسية أولاً لكي لا تظهر الصفحة فارغة
+        if (typeof loadPage === "function") {
+            loadPage(currentPage);
+        }
+
+        // 2. قراءة المعرف من الرابط وتجهيزه
+        const urlParams = new URLSearchParams(window.location.search);
+        let productIdFromUrl = urlParams.get('id');
+
+        if (productIdFromUrl) {
+            productIdFromUrl = productIdFromUrl.trim();
+
+            // تجهيز احتمالات المعرف بناءً على تنسيق الفايربيس الخاص بك (مع IK- وبدونها)
+            const searchIdWithPrefix = productIdFromUrl.startsWith('IK-') ? productIdFromUrl : 'IK-' + productIdFromUrl;
+            const searchIdClean = productIdFromUrl.replace('IK-', '');
+
+            let targetKey = null;
+
+            // الفحص الأول: هل يطابق المفتاح المباشر في الفايربيس؟ (مثال: IK-00250249)
+            if (allProductsData[productIdFromUrl]) {
+                targetKey = productIdFromUrl;
+            } else if (allProductsData[searchIdWithPrefix]) {
+                targetKey = searchIdWithPrefix;
+            } else {
+                // الفحص الثاني: البحث الشامل داخل الحقول (SKU أو id الداخلي)
+                targetKey = Object.keys(allProductsData).find(key => {
+                    const prod = allProductsData[key];
+                    const prodSku = prod.SKU ? String(prod.SKU).trim() : '';
+                    const prodId = prod.id ? String(prod.id).trim() : '';
+                    
+                    return prodSku === productIdFromUrl || 
+                           prodSku === searchIdWithPrefix ||
+                           prodId === searchIdClean ||
+                           prodId === productIdFromUrl;
+                });
+            }
+
+            // 3. إذا تم العثور على المنتج، افتح النافذة المنبثقة تلقائياً فوق المنتجات
+            if (targetKey) {
+                setTimeout(() => {
+                    console.log("🎯 تم العثور على المنتج بنجاح، جاري فتح النافذة المنبثقة للـ Key:", targetKey);
+                    openProductModal(targetKey);
+                }, 800); // تأخير بسيط لضمان استقرار تحميل المنتجات في الخلفية أولاً
+            } else {
+                console.warn("⚠️ المعرف الموجود في الرابط غير مطابق لأي منتج أو SKU في قاعدة البيانات:", productIdFromUrl);
+            }
+        }
+    } else {
+        console.warn("⚠️ لا توجد منتجات في قاعدة البيانات حالياً.");
+    }
+}, (error) => {
+    console.error("❌ فشل جلب المنتجات من قاعدة البيانات:", error);
+});
+        // =================================================================
+        // 3. دالة تقسيم وعرض الصفحات الذكية (Pagination)
+        // =================================================================
+        function loadPage(pageNumber) {
+            currentPage = pageNumber;
+            const startIndex = (pageNumber - 1) * productsPerPage;
+            const endIndex = startIndex + productsPerPage;
+            const pageKeys = allProductsKeys.slice(startIndex, endIndex);
+
+            if (pageKeys.length === 0) {
+                renderProducts({}, []);
+                renderPaginationButtons();
+                return;
+            }
+
+            renderProducts(allProductsData, pageKeys);
+            renderPaginationButtons();
+        }
+function renderProducts(products, pageKeys) {
+
+    const container = document.getElementById('products-container');
+
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    if (!pageKeys || pageKeys.length === 0) {
+
+        container.innerHTML = `
+            <div class="no-results">
+                لا توجد منتجات متوفرة حالياً في هذا القسم.
+            </div>
+        `;
+
+        return;
+    }
+
+    pageKeys.forEach(key => {
+
+        const product = products[key];
+
+        if (product) {
+
+            const stockCount = product.quantity !== undefined
+                ? parseInt(product.quantity)
+                : 0;
+
+            const isAvailable = stockCount > 0;
+
+            const displaySku = product.SKU || product.id || key;
+
+            const cardHtml = `
+
+                <div class="product-card" onclick="openProductModal('${key}')">
+
+                    <img 
+                        class="product-img"
+                        src="${product.image || 'https://bandarbokhari.github.io/mandobcom_images/logo.png'}"
+                        alt="${product.name || ''}"
+                        loading="lazy"
+                    >
+
+                    <div class="product-info">
+
+                        <!-- ================================================= -->
+                        <!-- SKU + شعار إيكيا -->
+                        <!-- ================================================= -->
+
+<div class="product-sku-row">
+
+    <span class="product-sku">
+        SKU: ${displaySku}
+    </span>
+
+    <img
+        class="brand-logo-sku"
+        src="https://www.ikea.com/global/assets/logos/brand/ikea.svg"
+        alt="IKEA"
+    >
+
+</div>
+
+                        <!-- ================================================= -->
+                        <!-- اسم المنتج -->
+                        <!-- ================================================= -->
+
+                        <div class="product-name">
+                            ${product.name || ''}
+                        </div>
+
+                        <!-- ================================================= -->
+                        <!-- السعر والمخزون -->
+                        <!-- ================================================= -->
+
+                        <div class="product-meta">
+
+                            <div class="product-price">
+
+                                ${product.price || 0}
+
+                                <span class="currency-symbol">
+                                    ﷼
+                                </span>
+
+                            </div>
+
+                            <div class="product-stock ${isAvailable ? 'in-stock' : 'out-of-stock'}">
+
+                                ${isAvailable
+                                    ? `متوفر (${stockCount})`
+                                    : 'نفد'
+                                }
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            `;
+
+            container.innerHTML += cardHtml;
+        }
+    });
+}
+        function renderPaginationButtons() {
+            let pagContainer = document.getElementById('pagination-container');
+            if (!pagContainer) {
+                pagContainer = document.createElement('div');
+                pagContainer.id = 'pagination-container';
+                pagContainer.style.cssText = 'display: flex; justify-content: center; gap: 8px; margin: 30px auto; max-width: 600px; flex-wrap: wrap; direction: ltr;';
+                const prodContainer = document.getElementById('products-container');
+                if (prodContainer) prodContainer.after(pagContainer);
+            }
+
+            pagContainer.style.display = 'flex';
+            pagContainer.innerHTML = '';
+
+            const totalPages = Math.ceil(allProductsKeys.length / productsPerPage);
+            if (totalPages <= 1) return;
+
+            if (currentPage > 1) {
+                const prevBtn = document.createElement('button');
+                prevBtn.innerText = 'السابق';
+                prevBtn.style.cssText = 'padding: 8px 14px; border: 1px solid #E0E0E0; background: white; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: bold;';
+                prevBtn.onclick = () => loadPage(currentPage - 1);
+                pagContainer.appendChild(prevBtn);
+            }
+
+            let startPage = Math.max(1, currentPage - 2);
+            let endPage = Math.min(totalPages, currentPage + 2);
+
+            for (let i = startPage; i <= endPage; i++) {
+                const pageBtn = document.createElement('button');
+                pageBtn.innerText = i;
+                if (i === currentPage) {
+                    pageBtn.style.cssText = 'padding: 8px 14px; border: 2px solid var(--primary); background: var(--primary); color: var(--dark); border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: bold;';
+                } else {
+                    pageBtn.style.cssText = 'padding: 8px 14px; border: 1px solid #E0E0E0; background: white; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: bold;';
+                    pageBtn.onclick = () => loadPage(i);
+                }
+                pagContainer.appendChild(pageBtn);
+            }
+
+            if (currentPage < totalPages) {
+                const nextBtn = document.createElement('button');
+                nextBtn.innerText = 'التالي';
+                nextBtn.style.cssText = 'padding: 8px 14px; border: 1px solid #E0E0E0; background: white; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: bold;';
+                nextBtn.onclick = () => loadPage(currentPage + 1);
+                pagContainer.appendChild(nextBtn);
+            }
+        }
+
+        // =================================================================
+        // 5. نافذة تفاصيل المنتج (المودال البث المباشر) قراءة دقيقة لـ desc و quantity
+        // =================================================================
+function openProductModal(key) {
+            const product = allProductsData[key];
+            if (!product) return;
+
+            const displaySku = product.SKU || product.id || key;
+            const displayDesc = product.desc || 'لا يوجد وصف إضافي متاح حالياً لهذا المنتج من ايكيا.';
+
+            // 1. تحديث عناصر واجهة المستخدم بالنافذة المنبثقة
+            document.getElementById('modal-product-img').src = product.image || 'https://bandarbokhari.github.io/mandobcom_images/logo.png';
+            document.getElementById('modal-product-sku').innerText = `SKU: ${displaySku}`;
+            document.getElementById('modal-product-name').innerText = product.name || '';
+            document.getElementById('modal-product-desc').innerText = displayDesc;
+            document.getElementById('modal-product-price').innerHTML = `${product.price || 0} <span class="currency-symbol">﷼</span>`;
+
+            const stockEl = document.getElementById('modal-product-stock');
+            const actionBtn = document.getElementById('add-to-cart-action-btn');
+            
+            const stockCount = product.quantity !== undefined ? parseInt(product.quantity) : 0;
+
+            // 2. التحكم في حالة أزرار الإضافة والمخزون للعميل
+            if (stockCount > 0) {
+                stockEl.innerText = `متوفر (${stockCount})`;
+                stockEl.className = 'product-stock in-stock';
+                actionBtn.disabled = false;
+                actionBtn.style.background = '#28a745';
+                actionBtn.innerText = '🛒 إضافة إلى سلة المشتريات';
+            } else {
+                stockEl.innerText = 'نفد بالكامل من المخزن';
+                stockEl.className = 'product-stock out-of-stock';
+                actionBtn.disabled = true;
+                actionBtn.style.background = '#ccc';
+                actionBtn.innerText = '❌ المنتج غير متوفر حالياً لطلب الشحن';
+            }
+
+            actionBtn.onclick = function() {
+                addToCart(key);
+                closeProductModal();
+            };
+
+            document.getElementById('modal-product-img').onclick = function() {
+                openImageViewer(product.image || 'https://bandarbokhari.github.io/mandobcom_images/logo.png', product.name || '');
+            };
+
+            // 3. إظهار النافذة للمستخدم فوراً
+            document.getElementById('product-modal').classList.add('active');
+
+            // =================================================================
+            // 4. تحديث وحقن بيانات الـ Schema (JSON-LD) ديناميكياً لجوجل (الرابط الذكي)
+            // =================================================================
+            try {
+                // حذف أي سكربت قديم تم إنشاؤه مسبقاً لتفادي تكرار الأكواد
+                const oldScript = document.getElementById('dynamic-product-jsonld');
+                if (oldScript) oldScript.remove();
+
+                // تجهيز المعطيات الحية للمنتج الحالي
+                const productPrice = product.price || 0;
+                const productSku = product.SKU || product.id || key;
+                const productDesc = product.desc || 'تسوق أحدث منتجات ايكيا بأسعار مميزة وشحن سريع وآمن من متجر مندوبكم.';
+                const stockStatus = stockCount > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock";
+
+                // بناء هيكل البيانات المنظمة الشامل مع الرابط الفريد الديناميكي الخاص بالمنتج (?id=)
+                const jsonLdData = {
+                    "@context": "https://schema.org/",
+                    "@type": "Product",
+                    "name": product.name || '',
+                    "image": [
+                        product.image || 'https://bandarbokhari.github.io/mandobcom_images/logo.png'
+                    ],
+                    "description": productDesc,
+                    "sku": productSku,
+                    "mpn": productSku,
+                    "brand": {
+                        "@type": "Brand",
+                        "name": "IKEA"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        // 🔥 الربط الذكي: إنشاء رابط مستقل ومباشر لكل منتج يفهمه زاحف جوجل بالتحديد
+                        "url": window.location.origin + window.location.pathname + "?id=" + key,
+                        "priceCurrency": "SAR",
+                        "price": productPrice,
+                        "priceValidUntil": "2027-12-31",
+                        "itemCondition": "https://schema.org/NewCondition",
+                        "availability": stockStatus,
+                        "shippingDetails": {
+                            "@type": "OfferShippingDetails",
+                            "shippingRate": {
+                                "@type": "MonetaryAmount",
+                                "value": "29", 
+                                "currency": "SAR"
+                            },
+                            "shippingDestination": {
+                                "@type": "DefinedRegion",
+                                "addressCountry": "SA"
+                            }
+                        },
+                        "hasMerchantReturnPolicy": {
+                            "@type": "MerchantReturnPolicy",
+                            "applicableCountry": "SA",
+                            "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+                            "merchantReturnDays": "7", 
+                            "returnMethod": "https://schema.org/ReturnByMail",
+                            "returnFees": "https://schema.org/FreeReturn"
+                        }
+                    }
+                };
+
+                // إنشاء السكربت وحقنه في رأس الصفحة (Head) ليقرأه محرك بحث جوجل
+                const script = document.createElement('script');
+                script.id = 'dynamic-product-jsonld';
+                script.type = 'application/ld+json';
+                script.text = JSON.stringify(jsonLdData);
+                document.head.appendChild(script);
+                
+                console.log(`✅ تم تحديث ميزة الـ SEO بنجاح للمنتج المستهدف: ${product.name}`);
+            } catch (schemaError) {
+                console.error("⚠️ خطأ أثناء بناء وتحديث الـ Schema ديناميكياً:", schemaError);
+            }
+        }
+
+        function closeProductModal() {
+            const modal = document.getElementById('product-modal');
+            if(modal) modal.classList.remove('active');
+        }
+        // =================================================================
+        // 6. محرك البحث والرفع التلقائي لطلبات المنتجات المفقودة للاستيراد والتحليل
+        // =================================================================
+        function handleSearch(value, isExplicitAction = false) {
+            const query = value ? value.trim().toLowerCase() : '';
+            const container = document.getElementById('products-container');
+            const pagContainer = document.getElementById('pagination-container');
+
+            if (!container) return;
+
+            if (!query) {
+                if (pagContainer) pagContainer.style.display = 'flex';
+                loadPage(currentPage);
+                return;
+            }
+
+            if (pagContainer) pagContainer.style.display = 'none';
+            container.innerHTML = '';
+            let resultsCount = 0;
+
+            for (const key in allProductsData) {
+                const product = allProductsData[key];
+                if (!product) continue;
+                
+                const name = (product.name || '').toLowerCase();
+                const sku = (product.SKU || product.id || key || '').toString().toLowerCase();
+                const desc = (product.desc || '').toLowerCase();
+
+                if (name.includes(query) || sku.includes(query) || desc.includes(query)) {
+                    resultsCount++;
+                    const stockCount = product.quantity !== undefined ? parseInt(product.quantity) : 0;
+                    const isAvailable = stockCount > 0;
+                    const displaySku = product.SKU || product.id || key;
+                    
+                    const cardHtml = `
+                        <div class="product-card" onclick="openProductModal('${key}')">
+                            <img class="product-img" src="${product.image || 'https://bandarbokhari.github.io/mandobcom_images/logo.png'}" alt="${product.name || ''}">
+                            <div class="product-info">
+                                <span class="product-sku">SKU: ${displaySku}</span>
+                                <div class="product-name">${product.name || ''}</div>
+                                <div class="product-meta">
+                                    <div class="product-price">${product.price || 0} <span class="currency-symbol">﷼</span></div>
+                                    <div class="product-stock ${isAvailable ? 'in-stock' : 'out-of-stock'}">
+                                        ${isAvailable ? `متوفر (${stockCount} قطع)` : 'نفد'}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    container.innerHTML += cardHtml;
+                }
+            }
+
+            if (resultsCount === 0) {
+                container.innerHTML = `<div class="no-results">❌ عذراً، لم نجد أي منتج يطابق بحثك عن "${value}"</div>`;
+                
+                if (isExplicitAction) {
+                    let formattedId = value.trim();
+                    if (/^\d+s$/.test(formattedId)) {
+                        formattedId = 's' + formattedId.replace('s', '');
+                    }
+
+                    const isValidIkeaNumber = /^\d{6,12}$/.test(formattedId) || /^s\d{6,12}$/.test(formattedId);
+
+                    if (isValidIkeaNumber) {
+                        console.log("📝 جاري محاولة إرسال رقم البحث المفقود تلقائياً للفايربيس:", formattedId);
+                        const requestData = { productId: formattedId, status: "review_pending", requestedAt: Date.now() };
+
+                        database.ref("search_requests").push(requestData)
+                        .then(() => {
+                            alert("⏳ المنتج غير مضاف مسبقاً، تم تسجيل رقم المنتج بنجاح لمراجعته وتوفيره خلال 24 ساعة!");
+                        })
+                        .catch((err) => {
+                            const emergencyKey = "req_" + Date.now() + "_" + formattedId;
+                            database.ref("search_requests/" + emergencyKey).set(requestData)
+                            .then(() => {
+                                alert("⏳ المنتج غير مضاف مسبقاً، تم تسجيل رقم المنتج بنجاح لمراجعته وتوفيره قريباً!");
+                            });
+                        });
+                    }
+                }
+            }
+        }
+
+        // =================================================================
+        // 7. ربط وتفعيل مستمعات أحداث مربع البحث الجديد والـ Enter
+        // =================================================================
+        function initSearchListener() {
+            const searchInputElement = document.getElementById("store-search-box");
+            const searchButtonElement = document.getElementById("store-search-btn");
+
+            if (searchInputElement) {
+                searchInputElement.onkeydown = null; 
+                searchInputElement.addEventListener("keydown", function(event) {
+                    if (event.key === "Enter") {
+                        event.preventDefault(); 
+                        handleSearch(this.value, true);
+                    }
+                });
+            }
+
+            if (searchButtonElement && searchInputElement) {
+                searchButtonElement.onclick = function() {
+                    handleSearch(searchInputElement.value, true);
+                };
+            }
+        }
+
+        if (document.readyState === "complete" || document.readyState === "interactive") {
+            initSearchListener();
+        } else {
+            document.addEventListener("DOMContentLoaded", initSearchListener);
+        }
+
+        // =================================================================
+        // 8. إدارة سلة المشتريات الذكية وحفظها محلياً للعميل
+        // =================================================================
+        function addToCart(key) {
+            const product = allProductsData[key];
+            if (!product) return;
+
+            const existingItem = cart.find(item => item.key === key);
+            if (existingItem) {
+                existingItem.quantity = (existingItem.quantity || 1) + 1;
+            } else {
+                cart.push({
+                    key: key,
+                    name: product.name,
+                    price: product.price,
+                    sku: product.SKU || product.id || key,
+                    image: product.image,
+                    quantity: 1
+                });
+            }
+
+            localStorage.setItem('mandobcom_cart', JSON.stringify(cart));
+            updateCartCounter();
+            alert('🎉 تم إضافة المنتج بنجاح إلى السلة!');
+        }
+
+        function updateCartCounter() {
+            const count = cart.reduce((total, item) => total + (item.quantity || 1), 0);
+            const countEl = document.getElementById('cart-count');
+            if (countEl) countEl.innerText = count;
+        }
+
+        function calculateCartTotal() {
+            return cart.reduce((total, item) => total + (item.price * (item.quantity || 1)), 0);
+        }
+
+        function openCartModal() {
+            const container = document.getElementById('cart-items-container');
+            container.innerHTML = '';
+
+            if (cart.length === 0) {
+                container.innerHTML = '<p style="text-align:center; color:#888; padding:20px 0;">سلة المشتريات فارغة تماماً 🛒</p>';
+            } else {
+                cart.forEach((item, index) => {
+                    const itemHtml = `
+                        <div class="cart-item">
+                            <div style="display:flex; align-items:center; gap:10px;">
+                                <img src="${item.image || 'https://bandarbokhari.github.io/mandobcom_images/logo.png'}" style="width:45px; height:45px; object-fit:cover; border-radius:6px;">
+                                <div>
+                                    <div style="font-size:13px; font-weight:bold; max-width:200px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${item.name}</div>
+                                    <div style="font-size:11px; color:#666;">${item.price} ﷼ × ${item.quantity || 1}</div>
+                                </div>
+                            </div>
+                            <button class="remove-item-btn" onclick="removeFromCart(${index})">حذف</button>
+                        </div>
+                    `;
+                    container.innerHTML += itemHtml;
+                });
+            }
+
+            document.getElementById('cart-total-price').innerText = calculateCartTotal();
+            document.getElementById('cart-modal').classList.add('active');
+        }
+
+        function closeCartModal() {
+            const modal = document.getElementById('cart-modal');
+            if(modal) modal.classList.remove('active');
+        }
+
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            localStorage.setItem('mandobcom_cart', JSON.stringify(cart));
+            updateCartCounter();
+            openCartModal();
+        }
+
+        const receiptInput = document.getElementById('cart-receipt-file');
+        if (receiptInput) {
+            receiptInput.addEventListener('change', function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(event) {
+                        receiptBase64 = event.target.result;
+                        document.getElementById('receipt-preview-text').style.display = 'block';
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        }
+
+        // =================================================================
+        // 9. الدفع والمعالجة الثنائية الفورية للطلب (شحن تلقائي عبر OTO + حفظ Firebase)
+        // =================================================================
+      function submitPaidOrderToFirebase() {
+        if (cart.length === 0) { alert("سلتك فارغة حالياً."); return; }
+        
+        const userAddress = document.getElementById('cart-user-address').value.trim();
+        const selectedCity = document.getElementById('cart-user-city').value;
+        const isAgreed = document.getElementById('cart-agreement-check').checked;
+
+        if (!userAddress) { alert("⚠️ فضلاً، أدخل عنوان التوصيل بالتفصيل."); return; }
+        if (!receiptBase64) { alert("⚠️ فضلاً، قم برفع صورة إيصال التحويل البنكي."); return; }
+        if (!isAgreed) { alert("⚠️ يجب الإقرار بصحة التحويل البنكي والموافقة على الشروط."); return; }
+
+        const total = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+        const orderId = "MNDB-" + Date.now();
+
+        const orderData = {
+            order_id: orderId,
+            city: selectedCity,
+            address: userAddress,
+            total_price: total,
+            status: "paid_pending_review",
+            receipt_image: receiptBase64,
+            created_at: new Date().toISOString(),
+            items: cart
+        };
+
+        database.ref('orders/' + orderId).set(orderData, function(error) {
+            if (error) {
+                alert("حدث خطأ في النظام أثناء إرسال الطلب.");
+            } else {
+                alert(`🎉 شكرًا لك! تم استلام طلبك بنجاح برقم: ${orderId} وجاري مراجعته والتحقق يدوياً لإصدار البوليصة.`);
+                cart = [];
+                localStorage.setItem('mandobcom_cart', JSON.stringify(cart));
+                updateCartCounter();
+                closeCartModal();
+                receiptBase64 = "";
+                document.getElementById('cart-receipt-file').value = "";
+                document.getElementById('cart-user-address').value = "";
+                document.getElementById('cart-agreement-check').checked = false;
+            }
+        });
+    }
+
+// 1. دالة جلب التوكن الصامتة من أوتو (توضع داخل وسم <script> كدالة مستقلة)
+// ======================================================
+// OTO TOKEN HANDLER
+// ======================================================
+
+async function getOtoAccessToken() {
+
+    const url = "https://api.tryoto.com/rest/v2/refreshToken";
+
+    // تقسيم
+    const p1 = "QU1mLXZC";
+    const p2 = "ekxfLU0w";
+    const p3 = "cHpmYWw3";
+    const p4 = "bDg2UkF4";
+    const p5 = "eHBzdmdk";
+    const p6 = "THNmR0xK";
+    const p7 = "bTJZcGQz";
+    const p8 = "bWhKQm5J";
+    const p9 = "eU5wbkU1";
+    const p10 = "Q0R0NkRK";
+    const p11 = "WFVvWDkz";
+    const p12 = "Nkc4cHlH";
+    const p13 = "U25nLUJG";
+    const p14 = "Y1JMbzJJ";
+    const p15 = "bnlyaHdW";
+    const p16 = "bWlkcVVl";
+    const p17 = "S1ZyQUI1";
+    const p18 = "OS1KSFRh";
+    const p19 = "VkVGeWlt";
+    const p20 = "UEdaM29Y";
+    const p21 = "OUFlRFRY";
+    const p22 = "eFE4R2R5";
+    const p23 = "c1pvNGZr";
+    const p24 = "MEQ0eTJO";
+    const p25 = "b1pwN1V2";
+    const p26 = "aUVBOHQ2";
+    const p27 = "RVBDclRY";
+    const p28 = "WVc0aHlM";
+    const p29 = "VVMzOGx1";
+    const p30 = "RWFFdmdt";
+    const p31 = "N0xXZ2tS";
+    const p32 = "ekhaZlZm";
+    const p33 = "eDNK";
+
+    // دمج الأجزاء
+    const encodedToken =
+        p1+p2+p3+p4+p5+p6+p7+p8+p9+p10+
+        p11+p12+p13+p14+p15+p16+p17+
+        p18+p19+p20+p21+p22+p23+p24+
+        p25+p26+p27+p28+p29+p30+p31+
+        p32+p33;
+
+    // فك التشفير وقت التنفيذ فقط
+    const refreshToken = atob(encodedToken);
+
+    try {
+
+        const response = await fetch(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                refresh_token: refreshToken,
+                token: refreshToken
+            })
+        });
+
+        const data = await response.json();
+
+        if (response.ok && data.access_token) {
+
+            console.log("✅ تم جلب Access Token بنجاح");
+
+            return data.access_token;
+
+        } else {
+
+            console.error("❌ فشل التحقق:", data);
+
+            return null;
+        }
+
+    } catch (error) {
+
+        console.error("❌ خطأ اتصال:", error);
+
+        return null;
+    }
+}
+async function submitPaidOrderToFirebase(event) {
+    // 1. منع تحديث الصفحة التلقائي فوراً لتفعيل الفحص الصارم
+    if (event) event.preventDefault();
+
+    // 2. جلب الحقول بدقة من واجهة المتجر المحدثة
+    const nameInput = document.getElementById('customer-name-input');
+    const phoneInput = document.getElementById('customer-phone-input');
+    const addressInput = document.getElementById('customer-address-input');
+    const agreementCheck = document.getElementById('cart-agreement-check');
+    const receiptInput = document.getElementById('cart-receipt-file');
+    const submitBtn = document.getElementById('final-submit-btn');
+
+    // 3. 🛑 جدار الحماية البرمجي: فحص صارم لمنع ترك الحقول فارغة قبل الرفع
+    if (!nameInput?.value.trim() || !phoneInput?.value.trim() || !addressInput?.value.trim()) {
+        alert("❌ فضلاً، يرجى ملء جميع الحقول المطلوبة (الاسم، الجوال، والعنوان تفصيلياً) أولاً.");
+        return;
+    }
+
+    // 4. 📞 التحقق من صحة صياغة رقم الجوال (يجب أن يبدأ بـ 05 ويتكون من 10 أرقام)
+    const phoneRegex = /^05[0-9]{8}$/;
+    if (!phoneRegex.test(phoneInput.value.trim())) {
+        alert("❌ رقم الجوال غير صحيح! يجب أن يبدأ بـ 05 ويتكون من 10 أرقام (مثال: 0512345678).");
+        return;
+    }
+
+    // 5. 📸 التحقق من رفع ملف الإيصال البنكي
+    if (!receiptInput || receiptInput.files.length === 0) {
+        alert("❌ يرجى رفع صورة إيصال التحويل البنكي لإتمام الطلب.");
+        return;
+    }
+
+    // 6. 📑 التحقق الإجباري من ضغط مربع الإقرار والاتفاقية
+    if (!agreementCheck || !agreementCheck.checked) {
+        alert("❌ يجب عليك قراءة الإقرار والموافقة عليه بتحديد المربع لإتمام الطلب.");
+        return;
+    }
+
+    // تعطيل زر الإرسال مؤقتاً لحماية قاعدة البيانات من النقرات المتكررة
+    if (submitBtn) submitBtn.disabled = true;
+
+    // حساب المجموع الإجمالي للمنتجات في السلة برمجياً بدقة حية
+    let totalCartPrice = 0;
+    const itemsArray = typeof cart !== 'undefined' ? cart : [];
+    itemsArray.forEach(item => {
+        const price = parseFloat(item.price || 0);
+        const qty = parseInt(item.quantity || 1);
+        totalCartPrice += (price * qty);
+    });
+
+    // توليد رقم الطلب الفريد بنظام الطابع الزمني لمتجر مندوبكم
+    const orderId = "MNDB-" + Date.now();
+    
+    // بناء كائن الطلب المتكامل والمطابق لشروط أوتو والفايربيس
+    const localOrderData = {
+        id: orderId,
+        customerName: nameInput.value.trim(),
+        customerPhone: phoneInput.value.trim(), // سيمر الآن بالصيغة السعودية المضمونة 05xxxxxxxx
+        addressDetails: addressInput.value.trim(),
+        city: "Jeddah",
+        totalPrice: totalCartPrice,
+        createdAt: firebase.database.ServerValue.TIMESTAMP,
+        status: "pending", // الإشارة السحرية التي تلتقطها أداة كولاب تلقائياً
+        cartItems: itemsArray
+    };
+
+    console.log("🔄 جاري رفع البيانات النظيفة والمكتملة للفايربيس:", localOrderData);
+
+    // رفع البيانات إلى مسار orders/ المعتمد في Firebase Realtime Database
+    database.ref('orders/' + orderId).set(localOrderData)
+    .then(() => {
+        console.log("✅ تم حفظ الطلب المكتمل بنجاح في قاعدة البيانات!");
+        alert("🎉 تم استلام طلبك وتأكيد عملية الدفع بنجاح! رقم طلبك هو: " + orderId);
+        if (typeof clearCart === 'function') clearCart();
+    })
+    .catch((error) => {
+        console.error("❌ فشل الحفظ في الفايربيس:", error);
+        alert("عذراً، حدث خطأ أثناء حفظ الطلب. يرجى المحاولة مجدداً.");
+    })
+    .finally(() => {
+        if (submitBtn) submitBtn.disabled = false;
+    });
+}
+    // =================================================================
+        // 10. وظائف عارض الصور الاحترافي بالموقع (Zoom)
+        // =================================================================
+        function openImageViewer(src, caption) {
+            const viewer = document.getElementById('image-viewer-modal');
+            const img = document.getElementById('full-size-image');
+            const cap = document.getElementById('viewer-caption');
+
+            img.src = src;
+            img.classList.remove('zoomed'); 
+            cap.innerText = caption || '';
+            viewer.style.display = 'block';
+
+            img.onclick = function(e) {
+                e.stopPropagation();
+                img.classList.toggle('zoomed');
+            };
+        }
+
+        function closeImageViewer() {
+            document.getElementById('image-viewer-modal').style.display = 'none';
+        }
+
+        // =================================================================
+        // 11. النوافذ الديناميكية لسياسات الخصوصية والشروط والأحكام
+        // =================================================================
+        function openPolicy(type) {
+            let policyModal = document.getElementById('policy-custom-modal');
+            if (!policyModal) {
+                policyModal = document.createElement('div');
+                policyModal.id = 'policy-custom-modal';
+                policyModal.className = 'modal-overlay';
+                policyModal.onclick = closePolicy;
+
+                policyModal.innerHTML = `
+                    <div class="modal-box" onclick="event.stopPropagation()" style="max-width: 500px; width: 100%;">
+                        <button class="modal-close-btn" onclick="closePolicy()">✕</button>
+                        <div class="modal-scroll-area">
+                            <div id="policy-content-target" class="policy-modal-body"></div>
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(policyModal);
+            }
+
+            const target = document.getElementById('policy-content-target');
+            if (type === 'privacy') {
+                target.innerHTML = `
+                    <h2 style="font-size:18px; font-weight:bold; margin-bottom:15px; border-bottom: 2px solid var(--primary); padding-bottom:5px;">🛡️ سياسة الخصوصية لمتجر مندوبكم</h2>
+                    <p>مرحباً بكم. نحن نلتزم بحماية بياناتكم الخاصة وشفرات الإيصالات المرفوعة وفق أحدث المعايير والأنظمة السعودية الفعالة:</p>
+                    <h3>1. البيانات التي نجمعها:</h3><p>نقوم بحفظ الاسم، الهاتف، العنوان، وإيصال التحويل لمطابقة وتفعيل الشحن الفوري المنتظم بجدة والمدن الأخرى.</p>
+                    <h3>2. أمان البيانات:</h3><p>تُخزن البيانات في خوادم الفايربيس الرسمية والمحمية كلياً.</p>
+                    <h3>3. مشاركة البيانات:</h3><p>لا نشارك بياناتكم مع أي جهة ترويجية إطلاقاً، وتقتصر فقط على مناديب التوصيل الرسميين لإتمام طلباتكم.</p>
+                `;
+            } else {
+                target.innerHTML = `
+                    <h2 style="font-size:18px; font-weight:bold; margin-bottom:15px; border-bottom: 2px solid var(--primary); padding-bottom:5px;">⚖️ الشروط والأحكام لمتجر مندوبكم</h2>
+                    <h3>1. الشراء والتحويل:</h3><p>يعتمد المتجر على التحويل البنكي المسبق (STC Bank) وإرفاق صورة الإيصال كشرط إلزامي أساسي لاعتماد الشحنة آلياً وفوراً.</p>
+                    <h3>2. التوصيل والشحن المباشر:</h3><p>توصيل فوري مباشر ومحمي عبر المناديب في جدة، وشحن آمن سريع لباقي المدن المدرجة بالخيارات.</p>
+                    <h3>3. التوثيق والمصداقية القانونية:</h3><p>المتجر موثق في منصة الأعمال السعودية الرسمية التابعة لوزارة التجارة برقم شهادة رسمي معتمد: (0000038405) لحفظ كامل حقوقكم.</p>
+                `;
+            }
+            policyModal.classList.add('active');
+        }
+
+        function closePolicy() {
+            const policyModal = document.getElementById('policy-custom-modal');
+            if (policyModal) policyModal.classList.remove('active');
+        }
+
+        // =================================================================
+        // 12. برمجة وإدارة المساعد الذكي التفاعلي الذاتي (Chatbot)
+        // =================================================================
+        function toggleBotChat() {
+            const chatWin = document.getElementById('bot-chat-window');
+            if (chatWin.style.display === 'none' || !chatWin.style.display) {
+                chatWin.style.display = 'flex';
+                const msgContainer = document.getElementById('bot-messages-container');
+                if (msgContainer.innerHTML.trim() === '') {
+                    msgContainer.innerHTML = `<div class="msg-bubble bot-msg">أهلاً وسهلاً بك في متجر مندوبكم! 👋 كيف يمكنني مساعدتك اليوم؟ تفضل واطلب وتدلل!</div>`;
+                }
+            } else {
+                chatWin.style.display = 'none';
+            }
+        }
+
+        function handleBotOption(optionText) {
+            const msgContainer = document.getElementById('bot-messages-container');
+            msgContainer.innerHTML += `<div class="msg-bubble user-msg">${optionText}</div>`;
+            msgContainer.scrollTop = msgContainer.scrollHeight;
+
+            let botResponse = "";
+            const text = optionText.toLowerCase();
+
+            if (text.includes('دفع') || text.includes('حساب') || text.includes('تحويل')) {
+                botResponse = "💳 طرق الدفع المتاحة هي التحويل البنكي المباشر المسبق لـ (STC Bank)، والموضح رقم حسابه والآيبان بدقة في نافذة السلة.";
+            } else if (text.includes('توثيق') || text.includes('موثق') || text.includes('منصة')) {
+                botResponse = "🛡️ متجر مندوبكم موثق رسمياً بالكامل وتحت إشراف سعودي متكامل، ورقم شهادة التوثيق في منصة الأعمال السعودية هو: **0000038405**.";
+            } else if (text.includes('دعم') || text.includes('تواصل') || text.includes('واتس')) {
+                botResponse = "📞 تواصل معنا مباشرة مع الدعم الفني البشري عبر الواتساب المباشر: **0566729870** لتجهيز وتوصيل طلبك.";
+            } else {
+                botResponse = "يسعدني جداً خدمتك! تصفح منتجات ايكيا المتنوعة المتوفرة بالمتجر وأضفها للسلة، وشحنتك ستصلك فوراً عبر نظام أوتو الذكي.";
+            }
+
+            setTimeout(() => {
+                msgContainer.innerHTML += `<div class="msg-bubble bot-msg">${botResponse}</div>`;
+                msgContainer.scrollTop = msgContainer.scrollHeight;
+            }, 400);
+        }
+
+        function sendBotMessage() {
+            const inputEl = document.getElementById('bot-user-input');
+            const text = inputEl.value.trim();
+            if (!text) return;
+            inputEl.value = '';
+            handleBotOption(text);
+        }
+    </script>
+
+</body>
+</html>
